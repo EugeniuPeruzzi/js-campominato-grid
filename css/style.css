@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.jumbotron{
+body{
     background-color: blueviolet;
 }
 
@@ -16,9 +16,6 @@
     color: rgb(255, 187, 0);
 }
 
-.vh{
-    height: 100vh;
-}
 
 a{
     text-decoration: none;
