@@ -6,7 +6,18 @@
 
 .jumbotron{
     background-color: blueviolet;
-    height: 100%;
+}
+
+.white{
+    color: white;
+}
+
+.yellow{
+    color: rgb(255, 187, 0);
+}
+
+.vh{
+    height: 100vh;
 }
 
 a{
@@ -14,14 +25,8 @@ a{
     color: black;
 }
 
-.container{
-    height: 100vh;
-    margin: 0px auto;
-    max-width: 1700px;
-}
 
 .grid-container{
-    padding: 100px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
