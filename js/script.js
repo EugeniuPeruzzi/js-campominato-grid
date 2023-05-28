@@ -3,6 +3,7 @@
 let grid = document.querySelector('.grid-container');
 let play = document.getElementById('play');
 let boxGrid = document.querySelector('.grid-container');
+let reset  = document.getElementById('reset');
 
 function gridCreator(numeri) {
     for (let i = 1; i <= numeri*numeri; i++) {
@@ -21,4 +22,12 @@ function gridCreator(numeri) {
     }
 }
 
-gridCreator(10)
+reset.addEventListener('click', function(){
+  boxGrid.innerHTML = ` `;
+});
+
+
+play.addEventListener('click', function(){
+  gridCreator(10)
+
+});
